@@ -15,7 +15,7 @@ export const siteConfig: SiteConfig = {
     "Building scalable web applications, AI-powered solutions, automation systems, and modern SaaS products.",
   summary:
     "Experienced Full Stack Engineer specializing in React, Next.js, TypeScript, Node.js, Express.js, MongoDB, REST APIs, Stripe integrations, AI applications, automation systems, and cloud-based architectures.",
-  email: "prakash@example.com",
+  email: "prakashdeep2902@gmail.com",
   github: "https://github.com/prakashdeep2902",
   linkedin: "https://www.linkedin.com/in/pkdeep/",
   resumeUrl: "/resume.pdf",
@@ -125,28 +125,28 @@ export const projects: Project[] = [
 
 export const experience: ExperienceItem[] = [
   {
-    title: "Software Engineer",
-    company: "Full Stack Development",
-    period: "2022 — Present",
+    title: "Software Engineer (Full Stack Development)",
+    company: "Document It llc",
+    period: "Mar 2025 — May 2026",
     description:
       "Architecting and delivering scalable web applications, AI-powered features, and automation pipelines for production SaaS products.",
     technologies: ["React", "Next.js", "Node.js", "MongoDB", "AWS"],
   },
   {
-    title: "Full Stack Developer",
-    company: "Remote Engineering",
-    period: "2020 — 2022",
+    title: "Software Engineer (Backend)",
+    company: "Nobroker.com",
+    period: "Jun 2023 — Mar 2025",
     description:
-      "Built end-to-end solutions including payment integrations, REST APIs, and responsive frontends for diverse client projects.",
-    technologies: ["TypeScript", "Express.js", "Stripe", "PostgreSQL"],
+      "Developed and maintained backend services for the company's core products.",
+    technologies: ["TypeScript", "Express.js", "Node.js", "MongoDB", "Redis", "GraphQL" ,"PostgreSQL", "AWS", "Docker", "GitHub Actions"],
   },
   {
-    title: "Remote Engineering Experience",
-    company: "Freelance & Contract",
-    period: "2018 — 2020",
+    title: "Backend Developer Trainee and Teaching Assistant",
+    company: "Coding Ninjas ",
+    period: "2022 — 2023",
     description:
-      "Delivered custom automation systems, API integrations, and cloud deployments for startups and growing teams.",
-    technologies: ["JavaScript", "Node.js", "Docker", "Linux"],
+      "Trained and guided students in JavaScript, Node.js, and web development concepts.",
+    technologies: ["JavaScript", "Node.js", "React", "MongoDB"],
   },
 ];
 
@@ -220,9 +220,9 @@ export const topTechnologies = [
 ];
 
 export const aboutStats = [
-  { label: "Years Experience", value: "6+", icon: "calendar" },
-  { label: "Projects Completed", value: "50+", icon: "folder-kanban" },
-  { label: "Technologies", value: "30+", icon: "layers" },
+  { label: "Years Experience", value: "3+", icon: "calendar" },
+  { label: "Projects Completed", value: "30+", icon: "folder-kanban" },
+  { label: "Technologies", value: "10+", icon: "layers" },
 ];
 
 export const floatingTechIcons = [
@@ -233,7 +233,7 @@ export const floatingTechIcons = [
   "MongoDB",
   "AWS",
   "Docker",
-  "AI",
+  "Agentic AI",
 ];
 
 export const heroTypingPhrases = [

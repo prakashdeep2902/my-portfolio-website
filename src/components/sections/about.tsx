@@ -2,6 +2,7 @@
 
 import { Calendar, FolderKanban, Layers, User } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import profileImage from "@/public/profile.jpg";
 import {
   FadeIn,
   SectionHeading,
@@ -30,12 +31,15 @@ export function About() {
           <FadeIn direction="left">
             <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 blur-2xl" />
+
               <div className="relative h-full w-full rounded-2xl border border-border bg-card/80 backdrop-blur-xl flex flex-col items-center justify-center gap-4 overflow-hidden">
-                <div className="h-32 w-32 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                  <User className="h-16 w-16 text-white" />
+                <div className="h-[80%] w-[80%] rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+                  <img
+                    src="/profile2.jpeg"
+                    alt="Prakash Deep Sharma"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <p className="text-sm text-muted font-mono">Professional Photo</p>
-                <p className="text-xs text-muted/60">Replace with your image</p>
               </div>
             </div>
           </FadeIn>
@@ -49,8 +53,8 @@ export function About() {
               </p>
               <p className="text-lg text-muted leading-relaxed">
                 Specialized in creating high-performance applications using
-                React, Next.js, Node.js, TypeScript, MongoDB, and modern software
-                architecture principles.
+                React, Next.js, Node.js, TypeScript, MongoDB, and modern
+                software architecture principles.
               </p>
             </div>
           </FadeIn>

@@ -3,18 +3,16 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { TypingEffect } from "@/components/effects/typing-effect";
-import {
-  floatingTechIcons,
-  heroTypingPhrases,
-  siteConfig,
-} from "@/lib/data";
+import { floatingTechIcons, heroTypingPhrases, siteConfig } from "@/lib/data";
 
 const socialLinks = [
   { href: siteConfig.github, icon: Github, label: "GitHub" },
   { href: siteConfig.linkedin, icon: Linkedin, label: "LinkedIn" },
   { href: `mailto:${siteConfig.email}`, icon: Mail, label: "Email" },
+  { href: `https://wa.me/8051288351`, icon: FaWhatsapp, label: "WhatsApp" },
 ];
 
 export function Hero() {
@@ -123,7 +121,11 @@ export function Hero() {
                 className="flex h-11 w-11 items-center justify-center rounded-lg border border-border bg-card/60 backdrop-blur-sm text-muted hover:text-foreground hover:border-primary/30 hover:bg-primary/10 transition-all"
                 aria-label={label}
               >
-                <Icon className="h-5 w-5" />
+                {label === "WhatsApp" ? (
+                  <FaWhatsapp className="h-5 w-5" />
+                ) : (
+                  <Icon className="h-5 w-5" />
+                )}
               </Link>
             ))}
           </div>
