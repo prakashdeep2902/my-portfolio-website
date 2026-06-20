@@ -35,7 +35,7 @@ export function Projects() {
                   <div
                     className={cn(
                       "relative h-48 bg-gradient-to-br border-b border-border flex items-center justify-center",
-                      project.gradient
+                      project.gradient,
                     )}
                   >
                     <Folder className="h-16 w-16 text-white/20 group-hover:text-white/40 transition-colors" />
